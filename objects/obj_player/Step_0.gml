@@ -17,10 +17,14 @@ var _rage = collision_rectangle(bbox_left - 80, bbox_top - 80, bbox_right + 80, 
 // Verificando se entrei na area de um npc
 if (_rage)
 {
-	// Se entrei na area, verifico se apertei E e se não tem nenhum dialogo ativo
+	// Se entrei na area, verifico se apertei E e se não tem nenhum dialogo ativo, eu inicio o dialogo
 	if (interaction && dialogo == noone)
 	{
+		// Passando os dados do dialogo
+		
 		dialogo = instance_create_depth(0, 0, 0, obj_dialogo)
+		dialogo.att_dialogo(_rage.dialogo)
 	}
 }
+
 
