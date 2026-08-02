@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"A","folderPath":"folders/A.yy","name":"A","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Interativos","folderPath":"folders/Interativos.yy","name":"Interativos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Npcs","folderPath":"folders/Npcs.yy","name":"Npcs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -33,6 +34,7 @@
     {"id":{"name":"obj_npc_pai","path":"objects/obj_npc_pai/obj_npc_pai.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"sei_la","path":"objects/sei_la/sei_la.yy",},},
     {"id":{"name":"rm_dev","path":"rooms/rm_dev/rm_dev.yy",},},
     {"id":{"name":"spr_dialogo","path":"sprites/spr_dialogo/spr_dialogo.yy",},},
     {"id":{"name":"spr_frame_npc","path":"sprites/spr_frame_npc/spr_frame_npc.yy",},},
