@@ -1,0 +1,23 @@
+
+# Configurações de Workspace (Variam de monitor para monitor e causam conflitos fatais)
+*.yyp.user
+*/layouts/
+
+# Arquivos de Build e Exportação (O Git não precisa salvar seus testes)
+*/Release/
+*/Debug/
+*/bin/
+*.yyz
+
+# Arquivos de Cache e Temporários do GameMaker
+*/cache/
+*/.yy/
+*.resource_order
+
+# Logs e Relatórios de Erro
+*.log
+Crash*/
+
+# Arquivos do Sistema Operacional (Windows/Mac/Linux)
+.DS_Store
+Thumbs.db
