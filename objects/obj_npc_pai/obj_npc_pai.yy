@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"texto","filters":[],"listItems":[],"multiselect":true,"name":"texto","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"\"","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"texto","filters":[],"listItems":[],"multiselect":true,"name":"texto","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[]","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"foto","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"foto","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_frame_npc","path":"sprites/spr_frame_npc/spr_frame_npc.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_frame_npc","varType":5,},

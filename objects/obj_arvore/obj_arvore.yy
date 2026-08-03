@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"sei_la",
+  "%Name":"obj_arvore",
   "eventList":[],
   "managed":true,
-  "name":"sei_la",
+  "name":"obj_arvore",
   "overriddenProperties":[],
   "parent":{
-    "name":"A",
-    "path":"folders/A.yy",
+    "name":"Solidos",
+    "path":"folders/Solidos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_wall",
+    "path":"objects/obj_wall/obj_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_arvore",
+    "path":"sprites/spr_arvore/spr_arvore.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

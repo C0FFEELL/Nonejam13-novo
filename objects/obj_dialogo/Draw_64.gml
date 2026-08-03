@@ -23,7 +23,7 @@ draw_sprite_stretched(spr_dialogo, 0, _x1, _y1, _x2, _caixa_alt); // Estica a sp
 var _txt_x =  _x1 + _padd;
 var _txt_y =  _y1 + _padd;
 
-draw_text_ext(_txt_x, _txt_y, texto, 20, _caixa_larg ); // Não entendi essa função
+draw_text_ext(_txt_x, _txt_y, texto[pagina], 20, _caixa_larg ); // Não entendi essa função
 
 
 // Desenhando retrato

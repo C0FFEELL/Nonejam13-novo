@@ -4,7 +4,7 @@ right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
 up = keyboard_check(ord("W"));
 down = keyboard_check(ord("S"));
-interaction = keyboard_check(ord("E"));
+interaction = keyboard_check_pressed(ord("E"));
 
 // definindo velocidade6
 
@@ -24,7 +24,24 @@ if (_rage)
 		
 		dialogo = instance_create_depth(0, 0, 0, obj_dialogo)
 		dialogo.att_dialogo(_rage.dialogo)
+		
+		interaction = false;
 	}
 }
 
-
+// Novo sistema de passar as páginas:
+if (interaction) {
+    // Verifica se a caixa de diálogo já está aberta
+    if (instance_exists(dialogo)) {
+        
+        // Se a página atual for menor que a última posição do array de textos
+        if (dialogo.pagina < array_length(dialogo.texto) - 1) {
+            // Avança para o próximo texto
+            dialogo.pagina++;
+        } else {
+            // Se não houver mais textos (chegou na última página), encerra o diálogo
+            instance_destroy(dialogo);
+            dialogo = noone;
+        }
+    }
+}
