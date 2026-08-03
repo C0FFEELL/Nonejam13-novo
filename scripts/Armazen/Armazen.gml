@@ -1,0 +1,1 @@
+global.dia = 1 // dcomeça no dia um

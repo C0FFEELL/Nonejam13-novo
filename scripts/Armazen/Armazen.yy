@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Armazen",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Armazen",
+  "parent":{
+    "name":"Mundo",
+    "path":"folders/Mundo.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

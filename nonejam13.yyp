@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Mundo","folderPath":"folders/Mundo.yy","name":"Mundo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Interativos","folderPath":"folders/Interativos.yy","name":"Interativos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Npcs","folderPath":"folders/Npcs.yy","name":"Npcs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -29,13 +30,18 @@
   "name":"nonejam13",
   "resources":[
     {"id":{"name":"ft_pixel1","path":"fonts/ft_pixel1/ft_pixel1.yy",},},
+    {"id":{"name":"ft_pixel2","path":"fonts/ft_pixel2/ft_pixel2.yy",},},
     {"id":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},},
     {"id":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},},
+    {"id":{"name":"obj_lista","path":"objects/obj_lista/obj_lista.yy",},},
     {"id":{"name":"obj_npc_pai","path":"objects/obj_npc_pai/obj_npc_pai.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_teleporte","path":"objects/obj_teleporte/obj_teleporte.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"rm_area1","path":"rooms/rm_area1/rm_area1.yy",},},
+    {"id":{"name":"rm_area2","path":"rooms/rm_area2/rm_area2.yy",},},
     {"id":{"name":"rm_dev","path":"rooms/rm_dev/rm_dev.yy",},},
+    {"id":{"name":"Armazen","path":"scripts/Armazen/Armazen.yy",},},
     {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},},
     {"id":{"name":"spr_dialogo","path":"sprites/spr_dialogo/spr_dialogo.yy",},},
     {"id":{"name":"spr_frame_npc","path":"sprites/spr_frame_npc/spr_frame_npc.yy",},},
@@ -48,6 +54,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_dev","path":"rooms/rm_dev/rm_dev.yy",},},
     {"roomId":{"name":"rm_area1","path":"rooms/rm_area1/rm_area1.yy",},},
+    {"roomId":{"name":"rm_area2","path":"rooms/rm_area2/rm_area2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
